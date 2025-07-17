@@ -1,6 +1,13 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Code2, GraduationCap, Award, ExternalLink, Github, Linkedin, User, FileText, Briefcase, Languages, Calendar, Star } from 'lucide-react';
 
+// Import images (you can replace these with your actual images)
+import profileImage from './assets/images/profile.jpg';
+import project1Image from './assets/images/project1.jpg';
+import project2Image from './assets/images/project2.jpg';
+import achievement1Image from './assets/images/achievement1.jpg';
+import achievement2Image from './assets/images/achievement2.jpg';
+
 function App() {
   const skills = [
     { name: 'HTML', level: 90, color: 'bg-orange-500' },
